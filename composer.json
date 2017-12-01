@@ -3,6 +3,7 @@
   "description": "A Composer wrapper for the \"REST API Search\" WordPress plugin",
   "type": "wordpress-plugin",
   "license": "GPL-2.0",
+  "version": "1.0.0",
   "authors": [],
   "require": {}
 }
