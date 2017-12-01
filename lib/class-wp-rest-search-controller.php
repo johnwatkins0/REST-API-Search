@@ -329,7 +329,7 @@ class WP_REST_Search_Controller extends WP_REST_Controller
 
         $search = $request->get_param ( 'search' );
         $page   = $request->get_param ( 'page' );
-        $postsPerPage = get_option('posts_per_page');
+		$postsPerPage = $request->get_param ( 'per_page' ) ?: get_option('posts_per_page');
 
         if( ! $postsPerPage )
             $postsPerPage = 10;
