@@ -1,0 +1,13 @@
+{
+    "name": "jwatkins/rest-api-search",
+    "description": "A Composer wrapper for the \"REST API Search\" WordPress plugin",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "johnwatkins0",
+            "email": "johnwatkins0@gmail.com"
+        }
+    ],
+    "require": {}
+}
